@@ -350,7 +350,7 @@ Done
 If there are no issues by the end of the flash process, the board will reboot and start up the `your-project-name` application.
 
 ### Monitor the Device
-ESP32 can be monitor during working by using this command:
+ESP32 can be monitored during working by using this command:
 ```
 idf.py monitor
 ```
@@ -433,5 +433,5 @@ ota_1,      app,  ota_1,   ,         1M
 .
 par-name,   app,  par_n,   ,         1M
 ```
-The custom partition can be set by `menuconfig`-->`Partition Table`-->`Partition Table`-->`Custom partition table CSV`. The file path need to be same location with Project `CMakeList.txt`.
-The size of number of app partitions depend on the memory flash IC come along with ESP32. Default for ESP32 Dev Board is 4MB.
+The custom partition can be set by `menuconfig`-->`Partition Table`-->`Partition Table`-->`Custom partition table CSV`. The file path need to be same location with `sdkconfig`.
+The size of number of app partitions depend on the memory flash come along with ESP32. Default for ESP32 Dev Board is 4MB.
