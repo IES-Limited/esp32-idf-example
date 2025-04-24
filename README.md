@@ -412,10 +412,10 @@ set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/{path}/customLibs)
 ```
 
 ## Feature Examples
-For feature examples of ESP32, nagvigate to `examples/` folder of ESP-IDF, i.e `~esp/Espressif/frameworks/esp-idf-v5.4/examples/`
-Copying these examples to workspace folder `esp/` before taking any actions is a recommendation practices.
-Every example is a completed project. Therefore, after parameter configuration, example can be built and flashed into ESP32 for testing.
-There is a litmitation on which type of ESP32 can be used for every example, be sure to check the README area for detail supported target.
+- For feature examples of ESP32, nagvigate to `examples/` folder of ESP-IDF, i.e `~esp/Espressif/frameworks/esp-idf-v5.4/examples/`.
+- Copying these examples to workspace folder `esp/` before taking any actions is a recommendation practices.
+- Every example is a completed project. Therefore, after parameter configuration, example can be built and flashed into ESP32 for testing.
+- There is a litmitation on which type of ESP32 can be used for every example, be sure to check the README area for detail supported target.
 
 ## Useful Tips
 **Permission Denied Issue**:
